@@ -5,7 +5,7 @@ class brocade_wrapper () {
 
                 include 'stdlib'
                 notice ("works a treat")
-                notice (grab1_nodes(100))
+                notice (grab2_nodes(100))
                 ############### Steel Apps config  ########################
 
                 $steelapp_server = hiera_hash ('steelapp-server')

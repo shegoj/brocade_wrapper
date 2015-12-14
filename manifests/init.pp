@@ -17,13 +17,13 @@ class brocade_wrapper {
 		$password = $steelapp_server['pass']
 
 
-		class { 'brocadevtm':
-				    rest_user => "${user}",
-				    rest_pass => "${password}",
-				    #rest_ip   => '10.65.84.72',
-				    rest_ip   => "${server}",
-				    rest_port  => "${port}",
-		}
+	#	class { 'brocadevtm':
+	#			    rest_user => "${user}",
+	#			    rest_pass => "${password}",
+	#			    #rest_ip   => '10.65.84.72',
+	#			    rest_ip   => "${server}",
+	#			    rest_port  => "${port}",
+	#	}
 
 		###  configure Trafic IP Group  ###################
 

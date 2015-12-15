@@ -49,6 +49,8 @@ class brocade_wrapper () {
         basic__listen_on_traffic_ips		=> $config['listen-ontraffic-ips'],
         basic__port											=> 80,
 		  }
+		}
+	}
 
 
 	###  configure Pools  ###################

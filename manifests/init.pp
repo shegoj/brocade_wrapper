@@ -27,7 +27,7 @@ class brocade_wrapper () {
 		  brocadevtm::traffic_ip_groups { "${traffic_ip_group_name}":
 		          ensure                         =>    present,
 		          basic__mode                    =>    'multihosted',
-		          basic__multicast               =>     config['multicast'],
+		          basic__multicast               =>     $config['multicast'],
 		          basic__machines                =>     $config['machines'],
 		          basic__keeptogether            =>     'true',
 		          basic__ipaddresses             =>     $config['ipaddresses'],
